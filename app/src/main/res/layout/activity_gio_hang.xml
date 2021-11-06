@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/gi_h_ng"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="26dp"
+        android:gravity="center_horizontal|top"
+        android:text="Giỏ hàng"
+        android:textAppearance="@style/giohang" />
+
+    <Button
+        android:id="@+id/buttonql_giohang"
+        android:layout_width="12dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/frameq_lai" />
+
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center_horizontal|top"
+        android:text="Danh sách món(2)"
+        android:textAppearance="@style/ds_mon"
+        android:translationY="-3.95sp" />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="119dp"
+        android:background="@mipmap/ic_monan_foreground"
+        />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="158dp"
+        android:gravity="center_vertical"
+        android:text="1x59.000đ"
+        android:textAppearance="@style/gia_tien" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="129dp"
+        android:gravity="center_vertical"
+        android:text="Sửa"
+        android:textAppearance="@style/btn_sua" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="130dp"
+        android:gravity="center_vertical"
+        android:text="Cà phê sữa"
+        android:textAppearance="@style/ten_mon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="223dp"
+        android:gravity="center_vertical"
+        android:text="Cà phê Robusta"
+        android:textAppearance="@style/ten_mon"
+
+        />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="212dp"
+        android:background="@mipmap/ic_monan_foreground" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="293dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center_vertical"
+        android:text="Sửa"
+        android:textAppearance="@style/btn_sua" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="251dp"
+        android:gravity="center_vertical"
+        android:text="1x99.000đ"
+        android:textAppearance="@style/gia_tien" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="334dp"
+        android:gravity="center_vertical"
+        android:hint="Vui lòng nhập thông tin tại đây"
+        android:minHeight="48dp"
+        android:textAppearance="@style/nhaptt" />
+
+    <View
+        android:layout_width="326.01dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="305dp"
+        android:background="@drawable/ic_line_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="313dp"
+        android:gravity="center_vertical"
+        android:text="Thông tin giao hàng"
+        android:textAppearance="@style/TTGH" />
+
+    <View
+        android:layout_width="326.01dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/ic_line_3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="397dp"
+        android:gravity="center_vertical"
+        android:text="Mã giảm giá"
+        android:textAppearance="@style/TTGH" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="422dp"
+        android:gravity="center_vertical"
+        android:hint="Bạn có mã giảm giá? Nhập tại đây"
+        android:minHeight="48dp"
+        android:textAppearance="@style/nhaptt" />
+
+    <View
+        android:layout_width="326.01dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="474dp"
+        android:background="@drawable/ic_line_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="480dp"
+        android:gravity="center_vertical"
+        android:text="Chú thích"
+        android:textAppearance="@style/TTGH" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="503dp"
+        android:gravity="center_vertical"
+        android:hint="Bạn có muốn dặn dò gì không?"
+        android:minHeight="48dp"
+        android:textAppearance="@style/nhaptt" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/grey">
+
+
+        <View
+            android:layout_width="378dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/rectangle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="29dp"
+            android:text="Tạm tính"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="53dp"
+            android:gravity="center_vertical"
+            android:text="Phí giao hàng"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="77dp"
+            android:gravity="center_vertical"
+            android:text="Giảm giá"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="111dp"
+            android:gravity="center_vertical"
+            android:text="TỔNG"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="29dp"
+            android:gravity="center_vertical"
+            android:text="58.000đ"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="53dp"
+            android:gravity="center_vertical"
+            android:text="10.000đ"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="77dp"
+            android:gravity="center_vertical"
+            android:text="0đ"
+            android:textAppearance="@style/gia_tien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="111dp"
+            android:gravity="center_vertical"
+            android:text="158.000đ"
+            android:textAppearance="@style/gia_tien"
+            android:textColor="#06E348" />
+
+        <View
+            android:layout_width="378dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/rectangle_tt" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center_vertical"
+            android:text="158.000đ"
+            android:textAppearance="@style/some_id" />
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="293dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center_vertical"
+            android:text="Đặt hàng"
+            android:textColor="#FFFFFF"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="326.01dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="101dp"
+            android:background="@drawable/ic_line_3" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

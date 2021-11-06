@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Start.MainActivity">
+    <View
+        android:id="@+id/view4_thongtin"
+        android:layout_width="414dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layoutlienhe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3_mail"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view3_mail"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layoutlienhe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_sdt"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2_nhom"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/layoutlienhe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4_lienhe"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/imageView2_dau"
+        android:layout_width="12dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/frameq_lai"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView4_lienhe"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:text="Liên hệ"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2_dau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toEndOf="@+id/imageView2_dau"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layoutlienhe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2_nhom"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhóm ADDR"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2_nhom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2_nhom"
+        app:layout_constraintVertical_bias="0.513"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4_1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_sdt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view_sdt"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+8418115053101"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_sdt"
+        app:layout_constraintEnd_toEndOf="@+id/view_sdt"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/view_sdt"
+        app:layout_constraintTop_toTopOf="@+id/view_sdt"
+        app:layout_constraintVertical_bias="0.513"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="addr.Itdd@gmail.com"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3_mail"
+        app:layout_constraintEnd_toEndOf="@+id/view3_mail"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="@+id/view3_mail"
+        app:layout_constraintTop_toTopOf="@+id/view3_mail"
+        app:layout_constraintVertical_bias="0.54"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6_1"
+        android:layout_width="73dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3_mail"
+        app:layout_constraintEnd_toEndOf="@+id/view3_mail"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="@+id/view3_mail"
+        app:layout_constraintTop_toTopOf="@+id/view3_mail"
+        app:layout_constraintVertical_bias="0.677"
+        app:srcCompat="@drawable/logo3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8_1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4_thongtin"
+        app:layout_constraintEnd_toEndOf="@+id/view4_thongtin"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view4_thongtin"
+        app:srcCompat="@drawable/logo4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đà Nẵng - Việt Nam"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4_thongtin"
+        app:layout_constraintEnd_toEndOf="@+id/view4_thongtin"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="@+id/view4_thongtin"
+        app:layout_constraintTop_toTopOf="@+id/view4_thongtin"
+        app:layout_constraintVertical_bias="0.472"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2_nhom"
+        app:layout_constraintEnd_toEndOf="@+id/view2_nhom"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2_nhom"
+        app:srcCompat="@drawable/logo1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

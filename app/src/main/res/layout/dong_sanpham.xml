@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imageviewsanpham"
+        android:layout_width="164dp"
+        android:layout_height="153dp"/>
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:textAlignment="center"
+        android:id="@+id/textviewtensp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cappucina"
+        android:fontFamily="@font/amarante"
+        android:textColor="@color/text"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="18dp"
+            android:fontFamily="@font/amarante"
+            android:id="@+id/textviewgiasp"
+            android:textColor="@color/text"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50.000" />
+        <TextView
+            android:fontFamily="@font/amarante"
+            android:textSize="18dp"
+            android:id="@+id/textviewdvtt"
+            android:textColor="@color/text"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="đ" />
+    </LinearLayout>
+
+</LinearLayout>
