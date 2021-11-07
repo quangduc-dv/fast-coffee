@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fastcf">
         <activity
+            android:name=".Chitietdonhang"
+            android:exported="true" />
+        <activity
+            android:name=".lichsugiaohang"
+            android:exported="true" />
+        <activity
+            android:name=".Khuyenmai"
+            android:exported="true" />
+        <activity
             android:name=".Lienhe.Lienhe"
             android:exported="true" />
         <activity
