@@ -14,6 +14,7 @@ import com.google.fastcf.Login.Thong_tin_ca_nhan;
 import com.google.fastcf.Maps.diachi;
 import com.google.fastcf.R;
 import com.google.fastcf.Start.MainActivity;
+import com.google.fastcf.Thongtincanhan1;
 import com.google.fastcf.Trang_chu;
 import com.google.fastcf.lichsugiaohang;
 
@@ -62,7 +63,7 @@ public class Thongtinkhach extends AppCompatActivity {
         txtttcn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Thongtinkhach.this, Thong_tin_ca_nhan.class);
+                Intent intent=new Intent(Thongtinkhach.this, Thongtincanhan1.class);
                 startActivity(intent);
 
             }

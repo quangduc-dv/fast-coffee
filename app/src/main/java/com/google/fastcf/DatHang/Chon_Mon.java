@@ -43,6 +43,7 @@ public class Chon_Mon extends AppCompatActivity {
         });
     }
 
+
     private void AnhXa() {
         btnqlaicm = (Button) findViewById(R.id.buttonql_chonmon);
         btngiohang=(Button) findViewById(R.id.button_giohang);

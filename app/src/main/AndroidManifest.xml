@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fastcf">
         <activity
+            android:name=".Thongtincanhan1"
+            android:exported="true" />
+        <activity
+            android:name=".updatethongtincanhan"
+            android:exported="true" />
+        <activity
             android:name=".Chitietdonhang"
             android:exported="true" />
         <activity
@@ -41,7 +47,8 @@
             android:exported="true" />
         <activity
             android:name=".Login.Thong_tin_ca_nhan"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
         <activity
             android:name=".DatHang.Gio_hang"
             android:exported="true" />
