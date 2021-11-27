@@ -1,12 +1,10 @@
-package com.google.fastcf.Maps;
+package com.google.fastcf;
 
         import androidx.appcompat.app.AppCompatActivity;
         import android.content.Intent;
         import android.os.Bundle;
         import android.view.View;
         import android.widget.Button;
-
-        import com.google.fastcf.R;
 
 public class diachi extends AppCompatActivity {
     Button btnThem1, btnThem2, btnback;

@@ -1,4 +1,4 @@
-package com.google.fastcf.Login;
+package com.google.fastcf;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import com.google.fastcf.R;
-import com.google.fastcf.Trang_chu;
 
 public class Thong_tin_ca_nhan extends AppCompatActivity {
     Button btnsave;
@@ -21,7 +18,7 @@ public class Thong_tin_ca_nhan extends AppCompatActivity {
         btnsave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent xacnhan_save = new Intent(Thong_tin_ca_nhan.this, Trang_chu.class);
+                Intent xacnhan_save = new Intent(Thong_tin_ca_nhan.this,Trang_chu.class);
                 startActivity(xacnhan_save);
             }
         });

@@ -16,17 +16,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/linealayoutbackgr"
             android:orientation="horizontal"
             android:padding="10dp">
 
             <Button
                 android:id="@+id/button_user"
-                android:layout_width="78dp"
-                android:layout_height="62dp"
+                android:layout_width="70dp"
+                android:layout_height="47dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/ic_baseline_person_pin_24" />
+                android:background="@drawable/user2" />
 
             <LinearLayout
                 android:layout_width="145dp"
@@ -35,33 +35,30 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:fontFamily="@font/amita"
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Alow"
+                    android:text="TextView"
                     android:textColor="@color/white"
                     android:textSize="20dp" />
 
                 <TextView
-                    android:fontFamily="@font/amita"
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0 Điểm"
+                    android:text="TextView"
                     android:textColor="@color/white"
                     android:textSize="20dp" />
             </LinearLayout>
 
-            <ImageView
+            <Button
                 android:id="@+id/imageButton3"
-                android:layout_width="40dp"
-                android:layout_height="48dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginRight="10dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_baseline_card_giftcard_24" />
+                android:background="@drawable/quatagg" />
 
             <Button
                 android:id="@+id/imageButtonmaps"
@@ -80,27 +77,7 @@
                 android:background="@drawable/bell" />
         </LinearLayout>
 
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="350dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/search_bg"
-            android:backgroundTint="#E0E3E3"
-            android:drawableRight="@drawable/ic_baseline_search_24"
-            android:drawablePadding="10dp"
-            android:fontFamily="@font/amarante"
-            android:hint="Search your Food!"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="#0B0A0A"
-            android:textSize="17sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <ListView
-            android:layout_marginTop="10dp"
             android:id="@+id/listviewnoidung"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

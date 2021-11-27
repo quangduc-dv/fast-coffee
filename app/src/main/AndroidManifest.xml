@@ -10,22 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fastcf">
         <activity
-            android:name=".Thongtincanhan1"
-            android:exported="true" />
-        <activity
-            android:name=".updatethongtincanhan"
-            android:exported="true" />
-        <activity
-            android:name=".Chitietdonhang"
-            android:exported="true" />
-        <activity
-            android:name=".lichsugiaohang"
-            android:exported="true" />
-        <activity
-            android:name=".Khuyenmai"
-            android:exported="true" />
-        <activity
-            android:name=".Lienhe.Lienhe"
+            android:name=".DatHang.Lienhe.Lienhe"
             android:exported="true" />
         <activity
             android:name=".User.Thongtinkhach"
@@ -47,8 +32,7 @@
             android:exported="true" />
         <activity
             android:name=".Login.Thong_tin_ca_nhan"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".DatHang.Gio_hang"
             android:exported="true" />

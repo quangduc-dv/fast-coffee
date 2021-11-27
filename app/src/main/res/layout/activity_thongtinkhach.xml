@@ -76,17 +76,16 @@
         </LinearLayout>
 
         <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
             android:id="@+id/textViewttcn"
             android:layout_width="380dp"
             android:layout_height="56dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/white"
-            android:padding="15dp"
             android:text="Thông tin cá nhân"
+            android:background="@color/white"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20dp" />
-
+            android:padding="15dp"/>
         <TextView
             android:layout_marginTop="20dp"
             android:textSize="20dp"
