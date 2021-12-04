@@ -1,5 +1,6 @@
 package com.google.fastcf.DatHang;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,13 +8,16 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.fastcf.DatHang.SanPham;
 import com.google.fastcf.R;
 
 import java.util.List;
 
 public class SanPhamAdaptar extends BaseAdapter {
+    private BottomSheetDialog bottomSheetDialog;
     private Context context;
     private int layout;
     private List<SanPham> sanPhamList;
@@ -64,6 +68,35 @@ public class SanPhamAdaptar extends BaseAdapter {
         holdel.txtTen.setText(sanPham.getTen());
         holdel.txtGia.setText(sanPham.getGia());
         holdel.txtDVT.setText(sanPham.getDonViTien());
+
+        //
+        holdel.imgHinh.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceType")
+            @Override
+            public void onClick(View view) {
+                bottomSheetDialog = new BottomSheetDialog(context,R.style.BottomSheetTheme);
+                View sheetView = LayoutInflater.from(context).inflate(R.layout.bottom_sheet,null);
+                sheetView.findViewById(R.id.add_to_cart).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(context,"Added to a Cart",Toast.LENGTH_SHORT).show();
+                        bottomSheetDialog.dismiss();
+                    }
+                });
+                ImageView bottomImg = sheetView.findViewById(R.id.bottom_img);
+                TextView bottomName = sheetView.findViewById(R.id.bottom_name);
+                TextView bottomPrice = sheetView.findViewById(R.id.bottom_price);
+                TextView bottomTiming = sheetView.findViewById(R.id.bottom_timing);
+                TextView bottomRating = sheetView.findViewById(R.id.bottom_rating);
+                bottomName.setText(R.id.bottom_name);
+                bottomPrice.setText(R.id.bottom_price);
+                bottomTiming.setText(R.id.bottom_timing);
+                bottomRating.setText(R.id.bottom_rating);
+                bottomImg.setImageResource(R.id.bottom_img);
+                bottomSheetDialog.setContentView(sheetView);
+                bottomSheetDialog.show();
+            }
+        });
         return view;
     }
 }

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login.Nhap_sdt">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -59,7 +58,7 @@
             android:textAlignment="center" />
 
         <LinearLayout
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="@drawable/rectangle_tt"
@@ -67,20 +66,34 @@
             android:paddingLeft="20dp">
 
             <TextView
+                android:fontFamily="@font/amita"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Họ và tên"
                 android:textSize="18dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LTDĐ"
+            <TextView
+                android:text="alow"
+                android:id="@+id/edit_name"
+                android:layout_width="393dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bg"
+                android:backgroundTint="#CCFBFFFF"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amarante"
+                android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"/>
+                android:textColorHint="#0B0A0A"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="@drawable/rectangle_tt"
@@ -88,20 +101,34 @@
             android:paddingLeft="20dp">
 
             <TextView
+                android:fontFamily="@font/amita"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Số điện thoại"
                 android:textSize="18dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LTDĐ"
+            <TextView
+                android:text="0868723211"
+                android:id="@+id/edit_mobi"
+                android:layout_width="393dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bg"
+                android:backgroundTint="#CCFBFFFF"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amarante"
+                android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"/>
+                android:textColorHint="#0B0A0A"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="@drawable/rectangle_tt"
@@ -109,20 +136,34 @@
             android:paddingLeft="20dp">
 
             <TextView
+                android:fontFamily="@font/amita"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Giới tính"
                 android:textSize="18dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LTDĐ"
+            <TextView
+                android:text="nam"
+                android:id="@+id/edit_gt"
+                android:layout_width="393dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bg"
+                android:backgroundTint="#CCFBFFFF"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amarante"
+                android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"/>
+                android:textColorHint="#0B0A0A"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="@drawable/rectangle_tt"
@@ -131,17 +172,31 @@
             >
 
             <TextView
+                android:fontFamily="@font/amita"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email"
                 android:textSize="18dp"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LTDĐ"
+            <TextView
+                android:text="pro@gmail.com"
+                android:id="@+id/edit_email"
+                android:layout_width="393dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bg"
+                android:backgroundTint="#CCFBFFFF"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amarante"
+                android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"/>
+                android:textColorHint="#0B0A0A"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
 
     </LinearLayout>
