@@ -3,6 +3,5 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amarante</item>
         <item>@font/amita</item>
-        <item>@font/arima_madurai_thin</item>
     </array>
 </resources>

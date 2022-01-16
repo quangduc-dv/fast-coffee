@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.QuanTamFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt2"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY &amp; TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt1"
+                android:id="@+id/imagehinh"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY &amp; TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt3"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY &amp; TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt4"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY &amp; TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt5"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY &amp; TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <ProgressBar
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/imgtt6"
+                android:layout_width="390dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/textViewTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:text="THƯỞNG THỨC CAFE RANG XAY VÀ TÚI LỌC  CỦA FAST"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textViewMota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast luôn cố gắng không ngừng để cho ra sản phẩm phù hợp với nhịp sống hiện đại"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

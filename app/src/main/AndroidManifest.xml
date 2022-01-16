@@ -1,82 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.fastcf">
+    package="com.google.food">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icincf"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/icincf"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fastcf">
+        android:theme="@style/Theme.Food">
         <activity
-            android:name=".Thongtincanhan1"
+            android:name=".Activity.dia_chi_them"
             android:exported="true" />
         <activity
-            android:name=".updatethongtincanhan"
+            android:name=".Activity.dia_chi"
             android:exported="true" />
         <activity
-            android:name=".Chitietdonhang"
+            android:name=".Activity.Supportsms2"
             android:exported="true" />
         <activity
-            android:name=".lichsugiaohang"
+            android:name=".Activity.Supportsms1"
             android:exported="true" />
         <activity
-            android:name=".Khuyenmai"
+            android:name=".Activity.Supportsms"
             android:exported="true" />
         <activity
-            android:name=".Lienhe.Lienhe"
+            android:name=".Activity.UpdatePSActivity"
             android:exported="true" />
         <activity
-            android:name=".User.Thongtinkhach"
+            android:name=".PersonActivity"
             android:exported="true" />
         <activity
-            android:name=".Maps.diachi_them"
+            android:name=".Activity.LienHe"
             android:exported="true" />
         <activity
-            android:name=".Maps.diachi"
+            android:name=".Activity.Account"
             android:exported="true" />
         <activity
-            android:name=".TinTuc.thongbaott2"
+            android:name=".Activity.VerificationMobiphone"
             android:exported="true" />
         <activity
-            android:name=".TinTuc.thongbaott1"
+            android:name=".Activity.Mobiphone"
             android:exported="true" />
         <activity
-            android:name=".Trang_chu"
+            android:name=".Activity.MethodLogin"
             android:exported="true" />
         <activity
-            android:name=".Login.Thong_tin_ca_nhan"
+            android:name=".Activity.CartListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ShowDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.IntroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MainActivity"
             android:exported="true">
-        </activity>
-        <activity
-            android:name=".DatHang.Gio_hang"
-            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DatHang.Chon_Mon"
-            android:exported="true" />
-        <activity
-            android:name=".Login.Nhap_sdt"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Start.start_app"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".Start.MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Login.Ma_Xac_Nhan"
-            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

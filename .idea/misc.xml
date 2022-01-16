@@ -3,84 +3,46 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ANDROID_STudio/LTDD/fastcf/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/drawable-v24/rectangle_tt.xml" value="0.3728205128205128" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_gio_hang.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_ma_xac_nhan.xml" value="0.3188405797101449" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_main.xml" value="0.3188405797101449" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_nhap_sdt.xml" value="0.3188405797101449" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_trang_chu.xml" value="0.3188405797101449" />
-        <entry key="..\:/ANDROID_STudio/fast-coffee/app/src/main/res/layout/activity_updatethongtincanhan.xml" value="0.3188405797101449" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom - Copy/app/src/main/res/drawable-v24/search_bg.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom - Copy/app/src/main/res/layout/activity_chon_mon.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom - Copy/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom - Copy/app/src/main/res/layout/activity_trang_chu.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom - Copy/app/src/main/res/layout/dong_sanpham.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.382051282051282" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.382051282051282" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/drawable/save_tt.xml" value="0.225" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_chitietdonhang.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_diachi.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_diachi_them.xml" value="0.20885416666666667" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_gio_hang.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_khuyenmai.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_lichsugiaohang.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_main.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_thongbaott1.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_thongtincanhan1.xml" value="0.32472826086956524" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_thongtinkhach.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_trang_chu.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/activity_updatethongtincanhan.xml" value="0.32472826086956524" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/bottom_sheet.xml" value="0.33559782608695654" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom 1/app/src/main/res/layout/dong_sanpham.xml" value="0.3654891304347826" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/drawable-v24/ic_monan_background.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/drawable-v24/rectangle_tt.xml" value="0.21770833333333334" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/drawable/customdangxuat.xml" value="0.2890625" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/drawable/layoutlienhe.xml" value="0.2890625" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/drawable/linealayoutbackgr.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_chon_mon.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_diachi.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_diachi_them.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_gio_hang.xml" value="0.33" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_lienhe.xml" value="0.22" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_ma_xac_nhan.xml" value="0.2015625" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_maps.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_nhap_sdt.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_start_app.xml" value="0.2015625" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.33" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_thongbaott1.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_thongbaott2.xml" value="0.3578125" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_thongtinkhach.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/activity_trang_chu.xml" value="0.2" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/content_maps.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/dong_noi_dung.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/dong_sanpham.xml" value="0.2604166666666667" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/dong_tin_tuc.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/fragment_first.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf-nhom/app/src/main/res/layout/fragment_second.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable-v24/ic_line_3.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable-v24/ic_monan_background.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable-v24/rectangle.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable-v24/rectangle_tt.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable/save_tt.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/drawable/textbox_custom.xml" value="0.3880208333333333" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_chon_mon.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_gio_hang.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_login_sdtactivity.xml" value="0.371875" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_ma_xac_nhan.xml" value="0.41343370005790386" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_nhap_sdt.xml" value="0.33" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_start_app.xml" value="0.33" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_thong_tin_ca_nhan.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_trang_chu.xml" value="0.22" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/layout/activity_trang_chu_main.xml" value="0.25" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.32685185185185184" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.32685185185185184" />
-        <entry key="..\:/ANDROID_STudio/fastcf/app/src/main/res/mipmap-anydpi-v26/ic_monan_round.xml" value="0.3880208333333333" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-ldpi/customdangxuat.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-ldpi/layoutlienhe.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-ldpi/textbox_custom.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-mdpi/rectangle_tt.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-mdpi/save_tt.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable-mdpi/search_bg.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable/backgroud_login_method.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable/bg_item.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable/card_background.xml" value="0.3728205128205128" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/drawable/orange_button_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_account.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_card_list.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_historycart.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_intro.xml" value="0.20260416666666667" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_lien_he.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_main.xml" value="0.25892857142857145" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_method_login.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_mobiphone.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_person.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_show_detail.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_supportsms.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_supportsms1.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_supportsms2.xml" value="0.3484375" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_update_psactivity.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/activity_verification_mobiphone.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/dong_noi_dung.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/fragment_chua_doc.xml" value="0.3484375" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/fragment_giaodich.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/fragment_quan_tam.xml" value="0.23293413173652694" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/viewholder_card.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/viewholder_cat.xml" value="0.2957427536231884" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/viewholder_popular.xml" value="0.3625" />
+        <entry key="..\:/ANDROID_STudio/Food/app/src/main/res/layout/viewholder_sale.xml" value="0.3625" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/layout/activity_account.xml" value="0.13994565217391305" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/layout/activity_dia_chi.xml" value="0.264" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/layout/activity_dia_chi_item.xml" value="0.13360507246376813" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/layout/activity_dia_chi_them.xml" value="0.2" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/BT/LT android/Food/app/src/main/res/menu/add_dc.xml" value="0.2324074074074074" />
       </map>
     </option>
   </component>
